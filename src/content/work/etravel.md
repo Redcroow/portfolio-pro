@@ -1,14 +1,14 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+title: E-Travel
+publishDate: 2023-07-01 00:00:00
+img: /assets/etravel.png
+img_alt: E-Travel index
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Description
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - NextJS
+  - NestJS
+  - Docker
 ---
 
 ## Level-two heading
