@@ -7,7 +7,7 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Mevrel Kilian" description="About page | Mevrel Kilian">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
@@ -18,7 +18,7 @@ import Hero from '../components/Hero.astro';
 					width="1553"
 					height="873"
 					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					alt="Me"
 				/>
 			</Hero>
 
@@ -48,9 +48,55 @@ import Hero from '../components/Hero.astro';
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<ul class="timeline">
+						<li>
+							<div class="timeline-content">
+								<h3>2019 - 2020</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Enedis</p>
+								<p><strong>Diplôme obtenu:</strong> BTS SIO option SLAM</p>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-content">
+								<h3>2020 - 2021</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Enedis</p>
+								<p><strong>Diplôme obtenu:</strong> BTS SIO : option SLAM</p>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-content">
+								<h3>2021 - 2022</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Colas ~ Mobility By Colas</p>
+								<p><strong>Diplôme obtenu:</strong> Bachelor : Administrateur des systèmes d'information</p>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-content">
+								<h3>2022 - 2023</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Cogenio</p>
+								<p><strong>Diplôme obtenu:</strong> Master : Expert en Système Informatique</p>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-content">
+								<h3>2023 - 2024</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Cogenio</p>
+								<p><strong>Diplôme obtenu:</strong> Master : Expert en Système Informatique</p>
+							</div>
+						</li>
+					</ul>
 				</div>
-			</section>
+			</section>			
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
@@ -118,5 +164,39 @@ import Hero from '../components/Hero.astro';
 			display: contents;
 			font-size: var(--text-lg);
 		}
+	}
+
+	.timeline {
+		list-style: none;
+		padding: 0;
+	}
+
+	.timeline-content {
+		border-left: 4px solid #7611A6;
+		padding-left: 20px;
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.timeline-content h3 {
+		font-size: 18px;
+		color: #fff;
+		margin-top: 0;
+	}
+
+	.timeline-content p {
+		margin: 5px 0;
+	}
+
+	.timeline-content strong {
+		color: #7611A6;
+	}
+
+	.timeline-content .etablissement {
+		color: #28a745;
+	}
+
+	.timeline-content .entreprise {
+		color: #dc3545;
 	}
 </style>
