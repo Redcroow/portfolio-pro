@@ -11,6 +11,9 @@ const { variant } = Astro.props;
 </ul>
 
 <style>
+	:root {
+		--row-offset: var(--default-offset);
+	}
 	.grid {
 		display: grid;
 		grid-auto-rows: 1fr;
@@ -35,9 +38,13 @@ const { variant } = Astro.props;
 			gap: 4rem;
 		}
 
-		.grid.offset {
-			--row-offset: 7.5rem;
+		.grid-offset {
+			--row-offset: var(--default-offset);
 			padding-bottom: var(--row-offset);
+		}
+
+		body[data-page="work"] .grid-offset {
+			--row-offset: var(--offset-work);
 		}
 
 		/* Shift first item in each row vertically to create staggered effect. */
@@ -63,3 +70,14 @@ const { variant } = Astro.props;
 		}
 	}
 </style>
+<script>
+	const currentPagePath = window.location.pathname;
+	let offsetValue = '0rem';
+
+	if (currentPagePath.includes('/work')) {
+		offsetValue = '7.5rem';
+	}
+
+	document.documentElement.style.setProperty('--default-offset', offsetValue);
+	document.body.setAttribute('data-page', 'work');
+</script>
