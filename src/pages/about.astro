@@ -5,6 +5,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Pill from '../components/Pill.astro';
+import Icon from '../components/Icon.astro';
 ---
 
 <BaseLayout title="About | Mevrel Kilian" description="About page | Mevrel Kilian">
@@ -100,7 +102,39 @@ import Hero from '../components/Hero.astro';
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<Icon icon="javascript" size='3rem'/>
+					<Icon icon="typescript" size='3rem'/>
+					<Icon icon="angular" size='3rem'/>
+					<Icon icon="reactjs" size='3rem'/>
+					<Icon icon="nextjs" size='3rem'/>
+					<Icon icon="nestjs" size='3rem'/>
+					<Icon icon="html" size='3rem'/>
+					<Icon icon="css" size='3rem'/>
+					<Icon icon="scss" size='3rem'/>
+					<Icon icon="python" size='3rem'/>
+					<Icon icon="springboot" size='3rem'/>
+					<Icon icon="php" size='3rem'/>
+					<Icon icon="laravel" size='3rem'/>
+					<Icon icon="astro" size='3rem'/>
+					<Icon icon="sql" size='3rem'/>
+					<Icon icon="stenciljs" size='3rem'/>
+					<Icon icon="bootstrap" size='3rem'/>
+					<Icon icon="vuejs" size='3rem'/>
+					<Icon icon="ionic" size='3rem'/>
+					<Icon icon="nodejs" size='3rem'/>
+					<Icon icon="markdown" size='3rem'/>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">CV</h2>
+				<div class="content">
+					<!-- TODO : make button for add my cv -->
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Random Facts</h2>
+				<div class="content">
+					<!-- TODO : some fact of me -->
 				</div>
 			</section>
 		</main>
@@ -190,13 +224,5 @@ import Hero from '../components/Hero.astro';
 
 	.timeline-content strong {
 		color: #7611A6;
-	}
-
-	.timeline-content .etablissement {
-		color: #28a745;
-	}
-
-	.timeline-content .entreprise {
-		color: #dc3545;
 	}
 </style>
