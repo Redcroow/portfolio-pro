@@ -28,6 +28,7 @@ Supervisé:
 - Régression linéaire
 - Decision Tree
 <br><br>
+
 Non supervisé:
 - K-Nearest Neighbors (KNN)
 - K-Means
@@ -43,10 +44,12 @@ Prétraitement des données:
 - Normalisation des valeurs des pixels.
 - Séparation des données en ensembles d'apprentissage, de validation et de test.
 <br><br>
+
 Entraînement des modèles:
 - Implémentation des différents algorithmes d'apprentissage automatique.
 - Optimisation des hyperparamètres pour chaque modèle.
 <br><br>
+
 Évaluation des modèles:
 - Calcul des métriques de performance (précision, rappel, F1-score).
 - Comparaison des performances des différents modèles.

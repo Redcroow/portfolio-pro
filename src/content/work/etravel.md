@@ -46,7 +46,7 @@ E-Travel vous facilite la planification de votre voyage en vous proposant un sys
 
 ##### Remarques
 Ce document est un résumé du projet. Le projet n'est acutellement plus hébergé.
-- Le code source du projet est disponible sur [GitHub](https://github.com/ProximaPolaris/etravel).
+Le code source du projet est disponible sur [GitHub](https://github.com/ProximaPolaris/etravel).
 
 <!-- TODO : mettre un caroussel d'image avec le maquetage du site -->
 # 🚧
