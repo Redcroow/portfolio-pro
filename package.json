@@ -11,8 +11,14 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
+    "@three-ts/orbit-controls": "^1.4.7",
     "astro": "^4.3.3",
     "react": "^18.2.0",
+    "three": "^0.161.0",
+    "three-orbitcontrols": "^2.110.3",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/three": "^0.161.2"
   }
 }
