@@ -19,7 +19,7 @@ import Icon from '../components/Icon.astro';
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
+					src="...."
 					alt="Me"
 				/>
 			</Hero>
@@ -27,24 +27,7 @@ import Icon from '../components/Icon.astro';
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
+					text
 				</div>
 			</section>
 			<section>
@@ -102,7 +85,6 @@ import Icon from '../components/Icon.astro';
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<!-- TODO : Faire une sphere qui lie les icon de manière interactif -->
 					<Icon icon="javascript" size='3rem'/>
 					<Icon icon="typescript" size='3rem'/>
 					<Icon icon="angular" size='3rem'/>
@@ -129,9 +111,13 @@ import Icon from '../components/Icon.astro';
 			<section>
 				<h2 class="section-title">CV</h2>
 				<div class="content">
-					<a type="button" class="btn-cv" href="#">
-						Curiculum Vitae
-					</a>
+					<div class="boxsup">
+						<div class="box">
+							<a type="button" class="btn-cv" href="#">
+								Curiculum Vitae
+							</a>
+						</div>
+					</div>
 				</div>
 			</section>
 			<section>
@@ -227,5 +213,26 @@ import Icon from '../components/Icon.astro';
 
 	.timeline-content strong {
 		color: #7611A6;
+	}
+
+	.boxsup {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.box {
+		width: fit-content;
+		border: 1px solid #7611A6;
+		transition: 0.5s;
+		padding: 10px;
+		letter-spacing: 0.1em;
+	}
+	.box:hover {
+		border: 1px solid #fff;
+		letter-spacing: 0.2em;
+	}
+	.box .btn-cv {
+		text-decoration: none;
+		color: #fff;
 	}
 </style>

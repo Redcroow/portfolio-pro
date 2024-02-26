@@ -1,13 +1,14 @@
 ---
-title: Cashville
+title: Shopify Hub
 publishDate: 2019-12-01 00:00:00
 img: /assets/cashville.png
-img_alt: Cashville index
+img_alt: Shopify hub index
 description: |
   Description
 tags:
-  - Stencil JS
-  - Javascript
+  - Java (Spring Boot)
+  - Hilla
+  - Typescript
 ---
 
 # 🚧
