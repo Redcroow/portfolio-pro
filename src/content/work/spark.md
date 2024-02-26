@@ -57,4 +57,5 @@ Ce projet a permis de mettre en pratique les connaissances acquises en apprentis
 <br><br>
 
 ##### Remarques
-Ce document est un résumé du projet. Le projet n'est pas accessible.
+Ce document est un résumé du projet.
+Vous pouvez avoir accès au notebook jupyter a cette adresse [Drive]()
