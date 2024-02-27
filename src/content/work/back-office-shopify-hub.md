@@ -14,7 +14,7 @@ tags:
 <br><br>
 
 ##### Introduction
-Ce document présente le projet Shopify Hub, réalisé dans le cadre du Master 2 Expert en système informatique. Ce projet a été réalisé en collaboration avec l'entreprise COGENIO en contrat d'alternance.
+Ce document présente le projet Shopify Hub, réalisé dans le cadre du Master 2 Expert en système informatique à l'école Ingetis Paris. Ce projet a été réalisé en collaboration avec l'entreprise COGENIO en contrat d'alternance.
 <br><br>
 
 ##### Objectifs

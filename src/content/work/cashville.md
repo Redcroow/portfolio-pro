@@ -13,7 +13,7 @@ tags:
 <br><br>
 
 ##### Introduction
-Ce document présente le projet Cashville, réalisé dans le cadre de mon alternance en Master 1 et Master 2 Expert en système informatique à l'école [Nom de l'école]. Ce projet a été réalisé en collaboration avec l'entreprise COGENIO.
+Ce document présente le projet Cashville, réalisé dans le cadre de mon alternance en Master 1 et Master 2 Expert en système informatique à l'école Ingetis Paris. Ce projet a été réalisé en collaboration avec l'entreprise COGENIO.
 <br><br>
 
 ##### Objectifs

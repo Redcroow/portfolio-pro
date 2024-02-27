@@ -14,7 +14,7 @@ tags:
 <br><br>
 
 ##### Introduction
-Ce document présente le projet E-Travel, réalisé dans le cadre du Master 1 Expert en système informatique. Ce projet fil rouge, mené sur une année, s'inscrit dans une démarche pédagogique innovante visant à mettre les étudiants en situation réelle de création de start-up.
+Ce document présente le projet E-Travel, réalisé dans le cadre du Master 1 Expert en système informatique à l'école Ingetis Paris. Ce projet fil rouge, mené sur une année, s'inscrit dans une démarche pédagogique innovante visant à mettre les étudiants en situation réelle de création de start-up.
 <br><br>
 
 ##### Rôle et équipe
