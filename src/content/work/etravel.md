@@ -23,7 +23,6 @@ J'ai occupé les postes de chef de projet et de lead développeur front-end au s
 
 ##### Objectifs
 E-Travel a pour objectif de simplifier la planification de voyages en proposant une plateforme tout-en-un pour :
-
 - Visualiser les billets d'avion, les hébergements et les activités.
 - Comparer les prix des vols et des hébergements pour trouver les meilleures offres.
 - Planifier l'intégralité du voyage, de A à Z.
@@ -32,7 +31,6 @@ E-Travel a pour objectif de simplifier la planification de voyages en proposant 
 
 ##### Outils et technologies
 Le projet E-Travel a été développé en utilisant les outils et technologies suivants :
-<br><br>
 - Méthodologie agile: Trello (Kanban)
 - Hébergement: Azure
 - Base de données: Metabase
@@ -50,6 +48,7 @@ Le code source du projet est disponible sur [GitHub](https://github.com/ProximaP
 <br><br>
 
 ##### Maquettage
+
 <div class="section-maquettage">
   <div class="slider" id="slider">
     <div class="slide">
@@ -97,7 +96,6 @@ Le code source du projet est disponible sur [GitHub](https://github.com/ProximaP
 
 .slider {
   display: flex;
-  justify-content: center;
   align-items: center;
   animation: scrollImages 40s linear infinite;
   gap: 20px;

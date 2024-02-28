@@ -15,8 +15,6 @@ Ce document présente le projet Spiruvores, réalisé dans le cadre de mon alter
 
 ##### Objectifs
 Le projet Spiruvores a pour objectifs de :
-<br><br>
-
 - Développer le front-end du site web de Spiruvores, un site d'e-commerce streetwear, hébergé sur BigCommerce.
 - Créer des widgets BigCommerce utilisables depuis le page builder de BigCommerce.
 - Intégrer de la logique métier dans certains widgets.
@@ -24,8 +22,6 @@ Le projet Spiruvores a pour objectifs de :
 
 ##### Technologies
 Le projet Spiruvores a été développé en utilisant les technologies suivantes :
-<br><br>
-
 - Front-end: HTML, CSS, JavaScript, jQuery, Stencil
 - Plateforme e-commerce: BigCommerce
 - Outils: Page builder de BigCommerce

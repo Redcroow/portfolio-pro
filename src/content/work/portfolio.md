@@ -35,7 +35,6 @@ Front-end:
 
 ##### Fonctionnalités
 Le portfolio permet de :
-
 - Consulter la liste de mes réalisations.
 - Accéder à des descriptions détaillées de chaque projet.
 - Découvrir mes compétences techniques et créatives.

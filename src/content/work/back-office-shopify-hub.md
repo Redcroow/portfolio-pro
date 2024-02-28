@@ -19,7 +19,6 @@ Ce document présente le projet Shopify Hub, réalisé dans le cadre du Master 2
 
 ##### Objectifs
 Le projet Shopify Hub a pour objectifs de :
-<br><br>
 - Développer un back-office pour le site web de Cashville, un site d'e-commerce streetwear.
 - Implémenter des fonctionnalités CRUD (Create, Read, Update, Delete) pour la gestion des couleurs, des tailles.
 - Avoir un système qui filtres et affiche les logs liés à tous les services : Fastmag, Bigcommerce, Jobs, Shopify.
@@ -28,7 +27,6 @@ Le projet Shopify Hub a pour objectifs de :
 
 ##### Technologies
 Le projet Shopify Hub a été développé en utilisant les technologies suivantes :
-<br><br>
 - Back-end: Java Spring Boot
 - Front-end: Hilla (Vaadin)
 <br><br>
