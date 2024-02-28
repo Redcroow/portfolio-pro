@@ -1,11 +1,14 @@
 ---
+// Layout import
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+// Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Icon from '../components/Icon.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="Mevrel Kilian | About" description="About page | Mevrel Kilian">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
@@ -15,44 +18,111 @@ import Hero from '../components/Hero.astro';
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="...."
+					alt="Me"
 				/>
 			</Hero>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
+					text
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<ul class="timeline">
+						<li>
+							<div class="timeline-content">
+								<h3>2019 - 2020</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Enedis</p>
+								<p><strong>Diplôme obtenu:</strong> BTS SIO option SLAM</p>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-content">
+								<h3>2020 - 2021</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Enedis</p>
+								<p><strong>Diplôme obtenu:</strong> BTS SIO : option SLAM</p>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-content">
+								<h3>2021 - 2022</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Colas ~ Mobility By Colas</p>
+								<p><strong>Diplôme obtenu:</strong> Bachelor : Administrateur des systèmes d'information</p>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-content">
+								<h3>2022 - 2023</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Cogenio</p>
+								<p><strong>Diplôme obtenu:</strong> Master : Expert en Système Informatique</p>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-content">
+								<h3>2023 - 2024</h3>
+								<p><strong>Établissement:</strong> INGETIS</p>
+								<p><strong>Alternance:</strong> Oui</p>
+								<p><strong>Entreprise affiliée:</strong> Cogenio</p>
+								<p><strong>Diplôme obtenu:</strong> Master : Expert en Système Informatique</p>
+							</div>
+						</li>
+					</ul>
 				</div>
-			</section>
+			</section>			
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<Icon icon="javascript" size='3rem'/>
+					<Icon icon="typescript" size='3rem'/>
+					<Icon icon="angular" size='3rem'/>
+					<Icon icon="reactjs" size='3rem'/>
+					<Icon icon="nextjs" size='3rem'/>
+					<Icon icon="nestjs" size='3rem'/>
+					<Icon icon="html" size='3rem'/>
+					<Icon icon="css" size='3rem'/>
+					<Icon icon="scss" size='3rem'/>
+					<Icon icon="python" size='3rem'/>
+					<Icon icon="springboot" size='3rem'/>
+					<Icon icon="php" size='3rem'/>
+					<Icon icon="laravel" size='3rem'/>
+					<Icon icon="astro" size='3rem'/>
+					<Icon icon="sql" size='3rem'/>
+					<Icon icon="stenciljs" size='3rem'/>
+					<Icon icon="bootstrap" size='3rem'/>
+					<Icon icon="vuejs" size='3rem'/>
+					<Icon icon="ionic" size='3rem'/>
+					<Icon icon="nodejs" size='3rem'/>
+					<Icon icon="markdown" size='3rem'/>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">CV</h2>
+				<div class="content">
+					<div class="boxsup">
+						<div class="box">
+							<a type="button" class="btn-cv" href="#">
+								Curiculum Vitae
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Random Facts</h2>
+				<div class="content">
+					<!-- TODO : some fact of me -->
 				</div>
 			</section>
 		</main>
@@ -116,5 +186,52 @@ import Hero from '../components/Hero.astro';
 			display: contents;
 			font-size: var(--text-lg);
 		}
+	}
+
+	.timeline {
+		list-style: none;
+		padding: 0;
+	}
+
+	.timeline-content {
+		border-left: 4px solid #7611A6;
+		padding-left: 20px;
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.timeline-content h3 {
+		font-size: 18px;
+		color: #fff;
+		margin-top: 0;
+	}
+
+	.timeline-content p {
+		margin: 5px 0;
+	}
+
+	.timeline-content strong {
+		color: #7611A6;
+	}
+
+	.boxsup {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.box {
+		width: fit-content;
+		border: 1px solid #7611A6;
+		transition: 0.5s;
+		padding: 10px;
+		letter-spacing: 0.1em;
+	}
+	.box:hover {
+		border: 1px solid #fff;
+		letter-spacing: 0.2em;
+	}
+	.box .btn-cv {
+		text-decoration: none;
+		color: #fff;
 	}
 </style>

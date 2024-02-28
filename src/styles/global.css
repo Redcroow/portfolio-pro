@@ -220,11 +220,22 @@ h5 {
 .gap-20 {
 	gap: 5rem;
 }
+.work-page {
+	gap: 5rem;
+	@media screen and (min-width: 1200px) {
+		gap: 20rem;
+	}
+}
 .gap-30 {
 	gap: 7.5rem;
 }
 .gap-48 {
 	gap: 12rem;
+}
+
+.content2 {
+	max-width: 100ch;
+	margin-inline: auto;
 }
 
 @media (min-width: 50em) {
