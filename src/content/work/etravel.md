@@ -1,7 +1,7 @@
 ---
 title: E-Travel
 publishDate: 2023-07-01 00:00:00
-img: /assets/etravel.png
+img: /assets/work/etravel.png
 img_alt: E-Travel index
 description: |
 tags:

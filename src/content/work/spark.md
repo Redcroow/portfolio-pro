@@ -1,7 +1,7 @@
 ---
 title: 'School Projet - Python : Précitions de données' 
 publishDate: 2024-02-01 00:00:00
-img: /assets/stock-4.jpg
+img: /assets/work/stock-3.jpg
 img_alt: python prediction project
 description: |
 tags:
