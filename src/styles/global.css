@@ -264,18 +264,3 @@ h5 {
 		gap: 12rem;
 	}
 }
-.slide {
-	margin-top: 10px;
-}
-.slider {
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-	gap: 30px;
-}
-.slide {
-	width: 40%;
-}

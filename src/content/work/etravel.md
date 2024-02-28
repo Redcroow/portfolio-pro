@@ -50,7 +50,6 @@ Le code source du projet est disponible sur [GitHub](https://github.com/ProximaP
 <br><br>
 
 ##### Maquettage
-
 <div class="section-maquettage">
   <div class="slider" id="slider">
     <div class="slide">
@@ -89,9 +88,47 @@ Le code source du projet est disponible sur [GitHub](https://github.com/ProximaP
         <div class="slide">
       <img src="../../../public/assets/maquettage/maquettage12.png" alt="Image 3" class="img-voyage">
     </div>
-        <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage12.png" alt="Image 3" class="img-voyage">
-    </div>
-    <!-- Ajoutez d'autres images si nécessaire -->
-  </div>
 </div>
+
+<style>
+.section-maquettage {
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: scrollImages 40s linear infinite;
+  gap: 20px;
+  @media screen and (min-width: 1200px) {
+    animation: scrollImages 50s linear infinite;
+  }
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 90%;
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+  }
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1100%);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  @keyframes scrollImages {
+    100% {
+      transform: translateX(-600%);
+    }
+  }
+}
+
+</style>
