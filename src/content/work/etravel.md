@@ -47,6 +47,51 @@ E-Travel vous facilite la planification de votre voyage en vous proposant un sys
 ##### Remarques
 Ce document est un résumé du projet. Le projet n'est acutellement plus hébergé.
 Le code source du projet est disponible sur [GitHub](https://github.com/ProximaPolaris/etravel).
+<br><br>
 
-<!-- TODO : mettre un caroussel d'image avec le maquetage du site -->
-# 🚧
+##### Maquettage
+
+<div class="section-maquettage">
+  <div class="slider" id="slider">
+    <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage1.png" alt="Image 1" class="img-voyage">
+    </div>
+    <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage2.png" alt="Image 2" class="img-voyage">
+    </div>
+    <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage3.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage4.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage5.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage6.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage7.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage8.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage9.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage10.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage11.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage12.png" alt="Image 3" class="img-voyage">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/maquettage/maquettage12.png" alt="Image 3" class="img-voyage">
+    </div>
+    <!-- Ajoutez d'autres images si nécessaire -->
+  </div>
+</div>
