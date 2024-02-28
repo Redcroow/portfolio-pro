@@ -18,7 +18,6 @@ Ce document présente le projet Cashville, réalisé dans le cadre de mon altern
 
 ##### Objectifs
 Le projet Cashville a pour objectifs de :
-
 - Développer le front-end du site web de Cashville, un site d'e-commerce streetwear, hébergé sur BigCommerce.
 - Créer des widgets BigCommerce utilisables depuis le page builder de BigCommerce.
 - Intégrer de la logique métier dans certains widgets.
@@ -26,7 +25,6 @@ Le projet Cashville a pour objectifs de :
 
 ##### Technologies
 Le projet Cashville a été développé en utilisant les technologies suivantes :
-
 - Front-end: HTML, CSS, JavaScript, jQuery, Stencil
 - Plateforme e-commerce: BigCommerce
 - Outils: Page builder de BigCommerce

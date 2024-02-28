@@ -35,5 +35,5 @@ Le projet Shopify Hub a été développé en utilisant les technologies suivante
 Le projet Shopify Hub est un outil complet et performant pour la gestion du back-office de Cashville et la centralisation des stocks et des inventaires de ses différentes boutiques. Le projet a été développé en utilisant des technologies modernes et répond aux besoins spécifiques de l'entreprise.
 <br><br>
 
+##### Annexe
 ##### 🚧
-Afficher des photos du back office
