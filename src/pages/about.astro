@@ -120,13 +120,24 @@ import Icon from '../components/Icon.astro';
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Random Facts</h2>
-				<div class="content">
-					<!-- TODO : some fact of me -->
+				<h2 class="section-title">Fait aléatoire</h2>
+				<div class="content section-skills">
+					<div class="right-part">
+						<ul class="ul">
+							<li><i class="fas fa-utensils"></i> J'aime explorer la gastronomie mondiale en cuisinant(et mangés)</li>
+							<li><i class="fas fa-film"></i> Cinéphile sur les bords</li>
+							<li><i class="fas fa-desktop"></i> Les cartes graphiques ? C'est mon ADN</li>
+							<li><i class="fas fa-car"></i> Les moteurs et l'univers automobile sont ma passion incontestée</li>
+							<li><i class="fas fa-laptop"></i> Je suis un fervent explorateur de nouvelles technologies </li>
+							<li><i class="fas fa-music"></i> Mon piano, dans l'ombre, résonne en écho</li>
+						</ul>
+					</div>
+					<div class="left-part">
+						<img class="img-skills" src="../../public/assets/left-img.png" alt="">
+					</div>
 				</div>
 			</section>
 		</main>
-
 		<ContactCTA />
 	</div>
 </BaseLayout>
@@ -225,6 +236,7 @@ import Icon from '../components/Icon.astro';
 		transition: 0.5s;
 		padding: 10px;
 		letter-spacing: 0.1em;
+		cursor: pointer;
 	}
 	.box:hover {
 		border: 1px solid #fff;
@@ -234,4 +246,53 @@ import Icon from '../components/Icon.astro';
 		text-decoration: none;
 		color: #fff;
 	}
+	.section-skills {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+	@media (min-width: 1200px){
+		.section-skills {
+			flex-direction: row-reverse;
+		}
+	}
+	.left-part {
+		display: flex;
+		flex: 1;
+	}
+	@media (min-width: 1200px){
+		.left-part {
+			display: flex;
+			
+		}
+	}
+	.img-skills {
+		box-shadow: none;
+		border: 0;
+		border-radius: 0;
+		margin: 0;
+		width: 50%;
+	}
+	@media (min-width: 1200px){
+		.img-skills {
+			width: 80%;
+		}
+	}
+	.right-part {
+		float: right;
+	}
+    .ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    .ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.8em;
+    }
+    .ul li i {
+        color: #7611A6;
+        margin-right: 0.5em;
+    }
 </style>
