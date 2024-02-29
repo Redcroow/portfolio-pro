@@ -11,33 +11,102 @@ import Icon from '../components/Icon.astro';
 <BaseLayout title="Mevrel Kilian | About" description="About page | Mevrel Kilian">
 	<div class="stack gap-20">
 		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="...."
-					alt="Me"
-				/>
+			<Hero title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background.">
+				<img width="1553" height="873" src="...." alt="Me" />
 			</Hero>
 
 			<section>
 				<h2 class="section-title">My story</h2>
 				<div class="content">
-					<div class="highlight">
-						<p>My interest in web development began at secondary school thanks to a teacher. He introduced me to the workings of a website and the basic coding languages of PHP, HTML, CSS and JavaScript.</p>
+					<div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									🚀 My Journey in Web Development 🚀
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse show"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>My interest in web development began at secondary school thanks to a teacher. He
+										introduced me to the workings of a website and the basic coding languages of
+										PHP, HTML, CSS and JavaScript.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									💡 Driven by Curiosity 💡
+								</button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>Intrigued and fascinated, I started exploring on my own. I researched and
+										realised my own projects, nourishing my certainty that web development was my
+										vocation.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									🎓 From School to Engineering 🎓
+								</button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>After the baccalauréat, I went to engineering school. This enabled me to acquire
+										a solid technical base by learning various programming languages. Each year I've
+										developed my skills and experience.</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									🛠️ Key Learning Moments 🛠️
+								</button>
+							</h2>
+							<div id="collapseFour" class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>The apprenticeship periods were key moments in my studies.</p>
+									<ul>
+										<li>At ENEDIS, I learned the basics of coding using the C language and developed
+											JavaScript modules. It was a rewarding experience, but I felt I had the
+											potential to go further.</li>
+										<li>At COLAS, I discovered the concepts of front-end and back-end.</li>
+										<li>Finally, at COGENIO, I worked in an environment focused on research and
+											innovation. It was here that I acquired the most important skill for a
+											developer: the ability to learn quickly and adapt to any language.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									🌟 Empowered for Today and Beyond 🌟
+								</button>
+							</h2>
+							<div id="collapseFive" class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>Today, thanks to my background and experience, I'm able to adapt quickly to any
+										context and take on challenges that once seemed unattainable.</p>
+								</div>
+							</div>
+						</div>
 					</div>
-					<p>Intrigued and fascinated, I started exploring on my own. I researched and realised my own projects, nourishing my certainty that web development was my vocation.</p>
-					<p>After the baccalauréat, I went to engineering school. This enabled me to acquire a solid technical base by learning various programming languages. Each year I've developed my skills and experience.</p>
-					<p>The apprenticeship periods were key moments in my studies.</p>
-					<ul>
-						<li>At ENEDIS, I learned the basics of coding using the C language and developed JavaScript modules. It was a rewarding experience, but I felt I had the potential to go further.</li>
-						<li>At COLAS, I discovered the concepts of front-end and back-end.</li>
-						<li>Finally, at COGENIO, I worked in an environment focused on research and innovation. It was here that I acquired the most important skill for a developer: the ability to learn quickly and adapt to any language.</li>
-					</ul>
-					<p>Today, thanks to my background and experience, I'm able to adapt quickly to any context and take on challenges that once seemed unattainable.</p>
 				</div>
 			</section>
 			<section>
@@ -91,31 +160,31 @@ import Icon from '../components/Icon.astro';
 						</li>
 					</ul>
 				</div>
-			</section>			
+			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<Icon icon="javascript" size='3rem'/>
-					<Icon icon="typescript" size='3rem'/>
-					<Icon icon="angular" size='3rem'/>
-					<Icon icon="reactjs" size='3rem'/>
-					<Icon icon="nextjs" size='3rem'/>
-					<Icon icon="nestjs" size='3rem'/>
-					<Icon icon="html" size='3rem'/>
-					<Icon icon="css" size='3rem'/>
-					<Icon icon="scss" size='3rem'/>
-					<Icon icon="python" size='3rem'/>
-					<Icon icon="springboot" size='3rem'/>
-					<Icon icon="php" size='3rem'/>
-					<Icon icon="laravel" size='3rem'/>
-					<Icon icon="astro" size='3rem'/>
-					<Icon icon="sql" size='3rem'/>
-					<Icon icon="stenciljs" size='3rem'/>
-					<Icon icon="bootstrap" size='3rem'/>
-					<Icon icon="vuejs" size='3rem'/>
-					<Icon icon="ionic" size='3rem'/>
-					<Icon icon="nodejs" size='3rem'/>
-					<Icon icon="markdown" size='3rem'/>
+					<Icon icon="javascript" size='3rem' />
+					<Icon icon="typescript" size='3rem' />
+					<Icon icon="angular" size='3rem' />
+					<Icon icon="reactjs" size='3rem' />
+					<Icon icon="nextjs" size='3rem' />
+					<Icon icon="nestjs" size='3rem' />
+					<Icon icon="html" size='3rem' />
+					<Icon icon="css" size='3rem' />
+					<Icon icon="scss" size='3rem' />
+					<Icon icon="python" size='3rem' />
+					<Icon icon="springboot" size='3rem' />
+					<Icon icon="php" size='3rem' />
+					<Icon icon="laravel" size='3rem' />
+					<Icon icon="astro" size='3rem' />
+					<Icon icon="sql" size='3rem' />
+					<Icon icon="stenciljs" size='3rem' />
+					<Icon icon="bootstrap" size='3rem' />
+					<Icon icon="vuejs" size='3rem' />
+					<Icon icon="ionic" size='3rem' />
+					<Icon icon="nodejs" size='3rem' />
+					<Icon icon="markdown" size='3rem' />
 				</div>
 			</section>
 			<section>
@@ -123,7 +192,8 @@ import Icon from '../components/Icon.astro';
 				<div class="content">
 					<div class="boxsup">
 						<div class="box">
-							<a type="button" class="btn-cv" href="https://drive.google.com/file/d/1dalvLNOgDbolmCV7tDIfZHhC3AE8rWtX/view?usp=sharing">
+							<a type="button" class="btn-cv"
+								href="https://drive.google.com/file/d/1dalvLNOgDbolmCV7tDIfZHhC3AE8rWtX/view?usp=sharing">
 								Curiculum Vitae
 							</a>
 						</div>
@@ -135,10 +205,12 @@ import Icon from '../components/Icon.astro';
 				<div class="content section-skills">
 					<div class="right-part">
 						<ul class="ul">
-							<li><i class="fas fa-utensils"></i> I like to explore the world's gastronomy by cooking (and eating)</li>
+							<li><i class="fas fa-utensils"></i> I like to explore the world's gastronomy by cooking (and
+								eating)</li>
 							<li><i class="fas fa-film"></i> A bit of a film buff</li>
 							<li><i class="fas fa-desktop"></i> Graphics cards? It's my DNA</li>
-							<li><i class="fas fa-car"></i> Engines and the automotive world are my undisputed passion</li>
+							<li><i class="fas fa-car"></i> Engines and the automotive world are my undisputed passion
+							</li>
 							<li><i class="fas fa-laptop"></i> I'm a keen explorer of new technologies </li>
 							<li><i class="fas fa-music"></i>My piano, in the shadows, echoes</li>
 						</ul>
@@ -200,7 +272,7 @@ import Icon from '../components/Icon.astro';
 			grid-template-columns: 1fr 60% 1fr;
 		}
 
-		.about > :global(:first-child) {
+		.about> :global(:first-child) {
 			grid-column-start: 2;
 		}
 
@@ -241,6 +313,7 @@ import Icon from '../components/Icon.astro';
 		justify-content: center;
 		align-items: center;
 	}
+
 	.box {
 		width: fit-content;
 		border: 1px solid #7611A6;
@@ -249,36 +322,43 @@ import Icon from '../components/Icon.astro';
 		letter-spacing: 0.1em;
 		cursor: pointer;
 	}
+
 	.box:hover {
 		border: 1px solid #fff;
 		letter-spacing: 0.2em;
 	}
+
 	.box .btn-cv {
 		text-decoration: none;
 		color: #fff;
 	}
+
 	.section-skills {
 		display: flex;
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
 	}
-	@media (min-width: 1200px){
+
+	@media (min-width: 1200px) {
 		.section-skills {
 			flex-direction: row-reverse;
 		}
 	}
+
 	.left-part {
 		display: flex;
 		justify-content: center;
 		flex: 1;
 	}
-	@media (min-width: 1200px){
+
+	@media (min-width: 1200px) {
 		.left-part {
 			display: flex;
-			
+
 		}
 	}
+
 	.img-skills {
 		box-shadow: none;
 		border: 0;
@@ -286,25 +366,33 @@ import Icon from '../components/Icon.astro';
 		margin: 0;
 		width: 50%;
 	}
-	@media (min-width: 1200px){
+
+	@media (min-width: 1200px) {
 		.img-skills {
 			width: 80%;
 		}
 	}
+
 	.right-part {
 		float: right;
 	}
-    .ul {
-        list-style: none;
-        padding-left: 0;
-    }
-    .ul li {
-        display: flex;
-        align-items: center;
-        margin-bottom: 0.8em;
-    }
-    .ul li i {
-        color: #7611A6;
-        margin-right: 0.5em;
-    }
+
+	.ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	.ul li {
+		display: flex;
+		align-items: center;
+		margin-bottom: 0.8em;
+	}
+
+	.ul li i {
+		color: #7611A6;
+		margin-right: 0.5em;
+	}
 </style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
