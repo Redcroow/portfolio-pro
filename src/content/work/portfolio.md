@@ -49,6 +49,9 @@ This portfolio project is an essential tool for my professional communication. I
 - Continue to add new projects to the portfolio.
 - Improve the design and ergonomics of the site.
 - Develop a multilingual version of the portfolio.
+For the v2 :
+- Add a language system to switch between French and English
+- Add a recommendation section to the home page
 <br><br>
 
 ##### Appendices
