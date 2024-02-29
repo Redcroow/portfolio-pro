@@ -1,6 +1,6 @@
 ---
 title: Shopify Hub
-publishDate: 2019-12-01 00:00:00
+publishDate: 2024-04-30 00:00:00
 img: /assets/work/stock-1.jpg
 img_alt: Shopify hub index
 description: |

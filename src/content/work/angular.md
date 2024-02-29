@@ -1,6 +1,6 @@
 ---
 title: 'School Projet - Angular | Java (Spring Boot)' 
-publishDate: 2024-02-01 00:00:00
+publishDate: 2023-11-01 00:00:00
 img: /assets/work/stock-4.jpg
 img_alt: School Project
 description: |

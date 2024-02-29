@@ -1,6 +1,6 @@
 ---
 title: Les spiruvores
-publishDate: 2019-12-01 00:00:00
+publishDate: 2022-09-01 00:00:00
 img: /assets/work/spiruvores.png
 img_alt: Les spiruvores index
 description: |

@@ -1,6 +1,6 @@
 ---
 title: 'School Projet - Python : Data prediction' 
-publishDate: 2024-02-01 00:00:00
+publishDate: 2022-02-01 00:00:00
 img: /assets/work/stock-3.jpg
 img_alt: python prediction project
 description: |
