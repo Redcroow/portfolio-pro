@@ -10,26 +10,24 @@ tags:
   - Scss
 ---
 
-### Projet Cashville
-<br><br>
-
 ##### Introduction
-Ce document présente le projet Cashville, réalisé dans le cadre de mon alternance en Master 1 et Master 2 Expert en système informatique à l'école Ingetis Paris. Ce projet a été réalisé en collaboration avec l'entreprise COGENIO.
+This document presents the Cashville project, carried out as part of my work-study programme in Master 1 and Master 2 Computer Systems Expert at Ingetis Paris. This project was carried out in collaboration with the company COGENIO.
 <br><br>
 
-##### Objectifs
-Le projet Cashville a pour objectifs de :
-- Développer le front-end du site web de Cashville, un site d'e-commerce streetwear, hébergé sur BigCommerce.
-- Créer des widgets BigCommerce utilisables depuis le page builder de BigCommerce.
-- Intégrer de la logique métier dans certains widgets.
+##### Targets
+The Cashville project aims to :
+- Develop the front-end of the Cashville website, a streetwear e-commerce site hosted on BigCommerce.
+- Create BigCommerce widgets that can be used from the BigCommerce page builder.
+- Integrate business logic into certain widgets.
 <br><br>
 
-##### Technologies
-Le projet Cashville a été développé en utilisant les technologies suivantes :
+##### Technology
+The Cashville project was developed using the following technologies:
 - Front-end: HTML, CSS, JavaScript, jQuery, Stencil
-- Plateforme e-commerce: BigCommerce
-- Outils: Page builder de BigCommerce
+- E-commerce platform: BigCommerce
+- Tools: BigCommerce page builder
 <br><br>
 
-##### Annexes
-Lien vers le site web de Cashville: [Cashville](https://www.cashville.fr/)
+##### Appendices
+This document is a summary of the project.
+Link to the Cashville website: [Cashville](https://www.cashville.fr/)

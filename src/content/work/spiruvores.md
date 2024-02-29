@@ -11,22 +11,23 @@ tags:
 ---
 
 ##### Introduction
-Ce document présente le projet Spiruvores, réalisé dans le cadre de mon alternance en Master 1 et Master 2 Expert en système informatique à l'école Ingetis Paris. Ce projet a été réalisé en collaboration avec l'entreprise COGENIO.
+This document presents the Spiruvores project, carried out as part of my work-study programme in Master 1 and Master 2 Computer Systems Expert at Ingetis Paris. This project was carried out in collaboration with the company COGENIO.
 <br><br>
 
-##### Objectifs
-Le projet Spiruvores a pour objectifs de :
-- Développer le front-end du site web de Spiruvores, un site d'e-commerce streetwear, hébergé sur BigCommerce.
-- Créer des widgets BigCommerce utilisables depuis le page builder de BigCommerce.
-- Intégrer de la logique métier dans certains widgets.
+##### Targets
+The Spiruvores project aims to :
+- Develop the front-end of the Spiruvores website, a streetwear e-commerce site hosted on BigCommerce.
+- Create BigCommerce widgets that can be used from the BigCommerce page builder.
+- Integrating business logic into certain widgets.
 <br><br>
 
 ##### Technologies
-Le projet Spiruvores a été développé en utilisant les technologies suivantes :
+The Spiruvores project was developed using the following technologies:
 - Front-end: HTML, CSS, JavaScript, jQuery, Stencil
-- Plateforme e-commerce: BigCommerce
-- Outils: Page builder de BigCommerce
+- E-commerce platform: BigCommerce
+- Tools: BigCommerce page builder
 <br><br>
 
-##### Annexes
-Lien vers le site web de Spiruvores: [Spiruvores](https://www.spiruvores.com/)
+##### Appendices
+This document is a summary of the project.
+Link to the Spiruvores website: [Spiruvores](https://www.spiruvores.com/)

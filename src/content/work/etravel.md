@@ -11,44 +11,41 @@ tags:
   - Scss
 ---
 
-### Projet Fil Rouge : E-Travel
-<br><br>
-
 ##### Introduction
-Ce document présente le projet E-Travel, réalisé dans le cadre du Master 1 Expert en système informatique à l'école Ingetis Paris. Ce projet fil rouge, mené sur une année, s'inscrit dans une démarche pédagogique innovante visant à mettre les étudiants en situation réelle de création de start-up.
+This document presents the E-Travel project, carried out as part of the Master 1 IT Systems Expert course at Ingetis Paris. This year-long project is part of an innovative teaching approach designed to put students in real-life start-up situations.
 <br><br>
 
-##### Rôle et équipe
-J'ai occupé les postes de chef de projet et de lead développeur front-end au sein d'une équipe de 3 étudiants.
+##### Role and team
+I was project manager and front-end lead developer in a team of 3 students.
 <br><br>
 
-##### Objectifs
-E-Travel a pour objectif de simplifier la planification de voyages en proposant une plateforme tout-en-un pour :
-- Visualiser les billets d'avion, les hébergements et les activités.
-- Comparer les prix des vols et des hébergements pour trouver les meilleures offres.
-- Planifier l'intégralité du voyage, de A à Z.
-- Prévisualiser l'itinéraire même en cas de connexion internet défaillante.
+##### Targets
+E-Travel aims to simplify travel planning by offering an all-in-one platform for :
+- View flight tickets, accommodation and activities.
+- Compare flight and accommodation prices to find the best deals.
+- Plan your entire trip, from A to Z.
+- Preview your itinerary even if your internet connection is down.
 <br><br>
 
-##### Outils et technologies
-Le projet E-Travel a été développé en utilisant les outils et technologies suivants :
-- Méthodologie agile: Trello (Kanban)
-- Hébergement: Azure
-- Base de données: Metabase
+##### Tools and technologies
+The E-Travel project was developed using the following tools and technologies:
+- Agile methodology: Trello (Kanban)
+- Hosting: Azure
+- Database: Metabase
 - Front-end: Next.js, React
 - Back-end: Nest.js
 <br><br>
 
-##### Synopsie
-E-Travel vous facilite la planification de votre voyage en vous proposant un système intégré de visualisation pour les billets d'avion, le logement et les activités, avec des comparateurs de prix pour les vols et le logement pour économiser de l'argent. Vous pouvez planifier votre voyage de A à Z avec une prévisualisation d'itinéraire disponible en cas de défaut d'internet.
+##### Synopsy
+E-Travel makes it easy for you to plan your trip by offering an integrated viewing system for flight tickets, accommodation and activities, with price comparators for flights and accommodation to save you money. You can plan your trip from A to Z with an itinerary preview available in the event of internet failure.
 <br><br>
 
-##### Remarques
-Ce document est un résumé du projet. Le projet n'est acutellement plus hébergé.
-Le code source du projet est disponible sur [GitHub](https://github.com/ProximaPolaris/etravel).
+##### Appendices
+This document is a summary of the project. The project is currently no longer hosted.
+The project source code is available on [GitHub](https://github.com/ProximaPolaris/etravel).
 <br><br>
 
-##### Maquettage
+##### Design
 
 <div class="section-maquettage">
   <div class="slider" id="slider">
@@ -91,43 +88,42 @@ Le code source du projet est disponible sur [GitHub](https://github.com/ProximaP
 </div>
 
 <style>
-.section-maquettage {
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  align-items: center;
-  animation: scrollImages 40s linear infinite;
-  gap: 20px;
-  @media screen and (min-width: 1200px) {
-    animation: scrollImages 50s linear infinite;
+  .section-maquettage {
+    overflow: hidden;
   }
-}
 
-.slide {
-  flex-shrink: 0;
-  width: 90%;
-  @media screen and (min-width: 1200px) {
-    width: 50%;
-  }
-}
-
-@keyframes scrollImages {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-1100%);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  @keyframes scrollImages {
-    100% {
-      transform: translateX(-600%);
+  .slider {
+    display: flex;
+    align-items: center;
+    animation: scrollImages 40s linear infinite;
+    gap: 20px;
+    @media screen and (min-width: 1200px) {
+      animation: scrollImages 50s linear infinite;
     }
   }
-}
 
+  .slide {
+    flex-shrink: 0;
+    width: 90%;
+    @media screen and (min-width: 1200px) {
+      width: 50%;
+    }
+  }
+
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-1100%);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    @keyframes scrollImages {
+      100% {
+        transform: translateX(-600%);
+      }
+    }
+  }
 </style>

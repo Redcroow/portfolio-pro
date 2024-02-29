@@ -11,17 +11,17 @@ tags:
 ---
 
 ### Introduction
-Ce document présente mon projet portfolio personnel, réalisé dans le but de mettre en valeur mes compétences et mes réalisations.
+This document presents my personal portfolio project, created to showcase my skills and achievements.
 <br><br>
 
-##### Objectifs
-Ce projet a pour objectifs de :
-- Présenter mes réalisations de manière claire et concise.
-- Mettre en avant mes compétences techniques et créatives.
-- Démontrer ma capacité à utiliser les technologies web modernes.
+##### Targets
+The aims of this project are to :
+- Present my work clearly and concisely.
+- Showcase my technical and creative skills.
+- Demonstrate my ability to use modern web technologies.
 <br><br>
 
-##### Technologies utilisées
+##### Technologies used
 Front-end:
 - Astro
 - Astro Markdown
@@ -29,32 +29,28 @@ Front-end:
 - CSS
 <br><br>
 
-##### Outils:
-- GitHub Pages
+##### Functionality
+The portfolio allows you to :
+- View a list of my projects.
+- Access detailed descriptions of each project.
+- Discover my technical and creative skills.
+- Contact me for collaboration or professional opportunities.
 <br><br>
 
-##### Fonctionnalités
-Le portfolio permet de :
-- Consulter la liste de mes réalisations.
-- Accéder à des descriptions détaillées de chaque projet.
-- Découvrir mes compétences techniques et créatives.
-- Me contacter pour des collaborations ou des opportunités professionnelles.
-<br><br>
-
-##### Veille technologique
-J'ai réalisé une veille technologique sur la technologie Astro afin de choisir la solution la plus adaptée à mes besoins. Astro est un framework web moderne qui permet de créer des sites web statiques performants et sécurisés. Il est particulièrement apprécié pour sa simplicité d'utilisation et sa grande flexibilité.
+##### Technology watch
+I carried out a technology watch on Astro technology in order to choose the solution best suited to my needs. Astro is a modern web framework for creating high-performance, secure static websites. It's particularly popular for its ease of use and flexibility.
 <br><br>
 
 ##### Conclusion
-Ce projet portfolio est un outil essentiel pour ma communication professionnelle. Il me permet de présenter mes compétences et mes réalisations de manière efficace et attractive.
+This portfolio project is an essential tool for my professional communication. It allows me to present my skills and achievements in an effective and attractive way.
 <br><br>
 
-##### Prochaines étapes
-- Continuer à enrichir le portfolio avec de nouvelles réalisations.
-- Améliorer le design et l'ergonomie du site.
-- Développer une version multilingue du portfolio.
+##### Next steps
+- Continue to add new projects to the portfolio.
+- Improve the design and ergonomics of the site.
+- Develop a multilingual version of the portfolio.
 <br><br>
 
-##### Remarques
-Ce document est un résumé du projet. Pour plus d'informations, veuillez consulter le code source du projet.
-- Le code source du projet est disponible sur [GitHub](https://github.com/Redcroow/portfolio-pro).
+##### Appendices
+This document is a summary of the project. For more information, please consult the project source code.
+- The project source code is available on [GitHub](https://github.com/Redcroow/portfolio-pro).

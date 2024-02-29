@@ -10,30 +10,27 @@ tags:
   - Typescript
 ---
 
-### Back Office : Shopify Hub
-<br><br>
-
 ##### Introduction
-Ce document présente le projet Shopify Hub, réalisé dans le cadre du Master 2 Expert en système informatique à l'école Ingetis Paris. Ce projet a été réalisé en collaboration avec l'entreprise COGENIO en contrat d'alternance.
+This document presents the Shopify Hub project, carried out as part of the Master 2 IT Systems Expert course at Ingetis Paris. This project was carried out in collaboration with the company COGENIO under a work-study contract.
 <br><br>
 
-##### Objectifs
-Le projet Shopify Hub a pour objectifs de :
-- Développer un back-office pour le site web de Cashville, un site d'e-commerce streetwear.
-- Implémenter des fonctionnalités CRUD (Create, Read, Update, Delete) pour la gestion des couleurs, des tailles.
-- Avoir un système qui filtres et affiche les logs liés à tous les services : Fastmag, Bigcommerce, Jobs, Shopify.
-- Permettre la gestion des stocks et des inventaires des boutiques physiques de Cashville ainsi que de B2, anciennement Stergan, un autre site d'e-commerce streetwear.
+##### Targets
+The Shopify Hub project aims to :
+- Develop a back office for the Cashville website, a streetwear e-commerce site.
+- Implement CRUD (Create, Read, Update, Delete) functions for managing colours and sizes.
+- Have a system that filters and displays logs for all services: Fastmag, Bigcommerce, Jobs, Shopify.
+- Enable stock and inventory management for Cashville's physical shops as well as B2, formerly Stergan, another streetwear e-commerce site.
 <br><br>
 
-##### Technologies
-Le projet Shopify Hub a été développé en utilisant les technologies suivantes :
+##### Technology
+The Shopify Hub project was developed using the following technologies:
 - Back-end: Java Spring Boot
 - Front-end: Hilla (Vaadin)
 <br><br>
 
 ##### Conclusion
-Le projet Shopify Hub est un outil complet et performant pour la gestion du back-office de Cashville et la centralisation des stocks et des inventaires de ses différentes boutiques. Le projet a été développé en utilisant des technologies modernes et répond aux besoins spécifiques de l'entreprise.
+The Shopify Hub project is a comprehensive, high-performance tool for managing Cashville's back office and centralising stocks and inventories for its various shops. The project has been developed using modern technologies and meets the company's specific needs.
 <br><br>
 
-##### Annexe
+##### Appendices
 ## 🚧
