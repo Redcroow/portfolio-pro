@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 publishDate: 2024-03-01 00:00:00
-img: /assets/work/stock-4.jpg
+img: /assets/work/stock-1.jpg
 img_alt: Portfolio home
 description: |
 tags:
