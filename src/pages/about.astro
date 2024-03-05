@@ -378,7 +378,7 @@ import Glide from '@glidejs/glide';
 
 	.timeline-content h3 {
 		font-size: 18px;
-		color: #fff;
+		color: var(--gray-0) !important;
 		margin-top: 0;
 	}
 
@@ -423,6 +423,7 @@ import Glide from '@glidejs/glide';
 
 	.glide__track {
 		width: 75%;
+		z-index: 1;
 	}
 
 	@media (min-width: 1200px) {
@@ -453,13 +454,13 @@ import Glide from '@glidejs/glide';
 	}
 
 	.box:hover {
-		border: 1px solid #fff;
+		border: 1px solid var(--gray-0);
 		letter-spacing: 0.2em;
 	}
 
 	.box .btn-cv {
 		text-decoration: none;
-		color: #fff;
+		color: var(--gray-0) !important;
 	}
 
 	.section-skills {
