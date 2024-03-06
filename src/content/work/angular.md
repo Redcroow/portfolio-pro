@@ -1,7 +1,7 @@
 ---
 title: 'School Projet - Angular | Java (Spring Boot)' 
-publishDate: 2024-02-01 00:00:00
-img: /assets/stock-4.jpg
+publishDate: 2023-11-01 00:00:00
+img: /assets/work/stock-4.jpg
 img_alt: School Project
 description: |
 tags:
@@ -9,14 +9,11 @@ tags:
   - Java (Spring Boot)
 ---
 
-### Projet d'École : Application CRUD avec Angular et Java Spring Boot
-<br><br>
-
 ##### Introduction
-Ce document présente un projet d'école réalisé dans le cadre du module Angular. L'objectif était de créer une application CRUD (Create, Read, Update, Delete) avec Angular en front-end et Java Spring Boot en back-end.
+This document presents a school project carried out as part of the Angular module. The aim was to create a CRUD (Create, Read, Update, Delete) application using Angular on the front end and Java Spring Boot on the back end.
 <br><br>
 
-##### Technologies utilisées
+##### Technologies used
 Front-end :
 - Angular
 - TypeScript
@@ -30,31 +27,31 @@ Back-end :
 - MySQL
 <br><br>
 
-##### Architecture du projet
-L'application est composée de deux parties principales :
-Front-end Angular :
-- Interface utilisateur pour la création, la lecture, la modification et la suppression des données.
-- Communication avec le back-end via l'API REST.
+##### Project architecture
+The application consists of two main parts:
+Angular :
+- User interface for creating, reading, modifying and deleting data.
+- Communication with the back-end via the REST API.
 <br><br>
 
-Back-end Java Spring Boot :
-- API REST pour la gestion des données.
-- Stockage des données dans une base de données MySQL.
+Java Spring Boot back-end:
+- REST API for data management.
+- Data stored in a MySQL database.
 <br><br>
 
-##### Fonctionnalités
-L'application CRUD permet de :
-- Créer de nouveaux objets.
-- Lire la liste des objets.
-- Modifier les informations d'un objet.
-- Supprimer un objet.
+##### Features
+The CRUD application allows you to :
+- Create new objects.
+- Read the list of objects.
+- Modify object information.
+- Delete an object.
 <br><br>
 
 ##### Conclusion
-Ce projet a permis de mettre en pratique les connaissances acquises dans le module Angular. L'utilisation de Spring Boot en back-end a permis de créer une API REST robuste et facile à utiliser.
+This project was an opportunity to put into practice the knowledge acquired in the Angular module. Using Spring Boot on the back-end enabled us to create a robust and easy-to-use REST API.
 <br><br>
 
-##### Remarques
-Ce document est un résumé du projet. Pour plus d'informations, veuillez consulter le code source du projet.
-- Le code source du projet Back est disponible sur [GitHub Back](https://github.com/Redcroow/school-spring-boot-project).
-- Le code source du projet Front est disponible sur [GitHub Front](https://github.com/Redcroow/school-angular-project).
+##### Appendices
+This document is a summary of the project. For more information, please consult the project source code.
+- The source code for the Back project is available at [GitHub Back](https://github.com/Redcroow/school-spring-boot-project).
+- The source code for the Front project is available at [GitHub Front](https://github.com/Redcroow/school-angular-project).

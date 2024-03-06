@@ -1,38 +1,33 @@
 ---
 title: Cashville
-publishDate: 2019-12-01 00:00:00
-img: /assets/cashville.png
+publishDate: 2022-09-01 00:00:00
+img: /assets/work/cashville.png
 img_alt: Cashville index
 description: |
 tags:
   - Stencil JS
   - Javascript
+  - Scss
 ---
 
-### Projet Cashville
-<br><br>
-
 ##### Introduction
-Ce document présente le projet Cashville, réalisé dans le cadre de mon alternance en Master 1 et Master 2 Expert en système informatique à l'école Ingetis Paris. Ce projet a été réalisé en collaboration avec l'entreprise COGENIO.
+This document presents the Cashville project, carried out as part of my work-study programme in Master 1 and Master 2 Computer Systems Expert at Ingetis Paris. This project was carried out in collaboration with the company COGENIO.
 <br><br>
 
-##### Objectifs
-Le projet Cashville a pour objectifs de :
+##### Targets
+The Cashville project aims to :
+- Develop the front-end of the Cashville website, a streetwear e-commerce site hosted on BigCommerce.
+- Create BigCommerce widgets that can be used from the BigCommerce page builder.
+- Integrate business logic into certain widgets.
 <br><br>
 
-- Développer le front-end du site web de Cashville, un site d'e-commerce streetwear, hébergé sur BigCommerce.
-- Créer des widgets BigCommerce utilisables depuis le page builder de BigCommerce.
-- Intégrer de la logique métier dans certains widgets.
-<br><br>
-
-##### Technologies
-Le projet Cashville a été développé en utilisant les technologies suivantes :
-<br><br>
-
+##### Technology
+The Cashville project was developed using the following technologies:
 - Front-end: HTML, CSS, JavaScript, jQuery, Stencil
-- Plateforme e-commerce: BigCommerce
-- Outils: Page builder de BigCommerce
+- E-commerce platform: BigCommerce
+- Tools: BigCommerce page builder
 <br><br>
 
-##### Annexes
-Lien vers le site web de Cashville: [Cashville](https://www.cashville.fr/)
+##### Appendices
+This document is a summary of the project.
+Link to the Cashville website: [Cashville](https://www.cashville.fr/)
