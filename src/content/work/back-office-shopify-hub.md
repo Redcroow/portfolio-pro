@@ -47,13 +47,13 @@ company's specific needs.
     <input type="radio" name="slider" id="item-3">
     <div class="cards">
       <label class="card" for="item-1" id="bo-1">
-        <img src="../../../public/assets/work/appendice-bo1.png" alt="bo">
+        <img src="../../../public/assets/work/appendice-bo/appendice-bo1.png" alt="bo">
       </label>
       <label class="card" for="item-2" id="bo-2">
-        <img src="../../../public/assets/work/appendice-bo2.png" alt="bo">
+        <img src="../../../public/assets/work/appendice-bo/appendice-bo2.png" alt="bo">
       </label>
       <label class="card" for="item-3" id="bo-3">
-        <img src="../../../public/assets/work/appendice-bo3.png" alt="bo">
+        <img src="../../../public/assets/work/appendice-bo/appendice-bo3.png" alt="bo">
       </label>
     </div>
   </div>
