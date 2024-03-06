@@ -114,16 +114,34 @@ company's specific needs.
   #item-1:checked~.cards #bo-3,
   #item-2:checked~.cards #bo-1,
   #item-3:checked~.cards #bo-2 {
-    transform: translatex(-40%) scale(.8);
+    transform: translatex(-25%) scale(.8);
     opacity: .4;
     z-index: 0;
+  }
+  @media (min-width:1200px) {
+    #item-1:checked~.cards #bo-3,
+    #item-2:checked~.cards #bo-1,
+    #item-3:checked~.cards #bo-2 {
+      transform: translatex(-40%) scale(.8);
+      opacity: .4;
+      z-index: 0;
+    }
   }
   #item-1:checked~.cards #bo-2,
   #item-2:checked~.cards #bo-3,
   #item-3:checked~.cards #bo-1 {
-    transform: translatex(40%) scale(.8);
+    transform: translatex(25%) scale(.8);
     opacity: .4;
     z-index: 0;
+  }
+  @media (min-width:1200px) {
+    #item-1:checked~.cards #bo-2,
+    #item-2:checked~.cards #bo-3,
+    #item-3:checked~.cards #bo-1 {
+      transform: translatex(40%) scale(.8);
+      opacity: .4;
+      z-index: 0;
+    }
   }
   #item-1:checked~.cards #bo-1,
   #item-2:checked~.cards #bo-2,
