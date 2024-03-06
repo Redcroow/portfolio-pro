@@ -58,6 +58,21 @@ company's specific needs.
     </div>
   </div>
 </div>
+<div class="section-appendice">
+  <div class="slider" id="slider">
+    <div class="slide">
+      <img src="../../../public/assets/work/appendice-bo/appendice-bo3-2.png" alt="Image 1" class="img-appendice">
+    </div>
+    <div class="slide">
+      <img src="../../../public/assets/work/appendice-bo/appendice-bo3-3.png" alt="Image 2" class="img-appendice">
+    </div>
+    <div class="slide">
+      <img src="../../../public/assets/work/appendice-bo/appendice-bo3-4.png" alt="Image 3" class="img-appendice">
+    </div>
+        <div class="slide">
+      <img src="../../../public/assets/work/appendice-bo/appendice-bo3-5.png" alt="Image 3" class="img-appendice">
+    </div>
+</div>
 <style>
   * {
     box-sizing: border-box;
@@ -79,8 +94,13 @@ company's specific needs.
     justify-content: space-between;
     transform-style: preserve-3d;
     width: 100%;
-    height: 350px;
+    height: 200px;
     position: relative;
+  }
+    @media (min-width:1200px) {
+    .container {
+      height: 350px;
+    }
   }
   .cards {
     margin-bottom: 20px;
@@ -113,6 +133,47 @@ company's specific needs.
     z-index: 1;
     img {
       box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+    }
+  }
+  .section-appendice {
+    margin-top:2em;
+    overflow: hidden;
+  }
+  @media (min-width:1200px) {
+    .section-appendice {
+      margin-top:10em;
+      overflow: hidden;
+    }
+  }
+  .slider {
+    display: flex;
+    align-items: center;
+    animation: scrollImages 20s linear infinite;
+    gap: 20px;
+    @media screen and (min-width: 1200px) {
+      animation: scrollImages 10s linear infinite;
+    }
+  }
+  .slide {
+    flex-shrink: 0;
+    width: 90%;
+    @media screen and (min-width: 1200px) {
+      width: 50%;
+    }
+  }
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-300%);
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    @keyframes scrollImages {
+      100% {
+        transform: translateX(-100%);
+      }
     }
   }
 </style>
