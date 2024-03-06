@@ -50,40 +50,40 @@ The project source code is available on [GitHub](https://github.com/ProximaPolar
 <div class="section-maquettage">
   <div class="slider" id="slider">
     <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage1.png" alt="Image 1" class="img-voyage">
+      <img src="/assets/maquettage/maquettage1.png" alt="Image 1" class="img-voyage">
     </div>
     <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage2.png" alt="Image 2" class="img-voyage">
+      <img src="/assets/maquettage/maquettage2.png" alt="Image 2" class="img-voyage">
     </div>
     <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage3.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage3.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage4.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage4.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage5.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage5.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage6.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage6.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage7.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage7.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage8.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage8.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage9.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage9.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage10.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage10.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage11.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage11.png" alt="Image 3" class="img-voyage">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/maquettage/maquettage12.png" alt="Image 3" class="img-voyage">
+      <img src="/assets/maquettage/maquettage12.png" alt="Image 3" class="img-voyage">
     </div>
 </div>
 

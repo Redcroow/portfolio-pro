@@ -47,13 +47,13 @@ company's specific needs.
     <input type="radio" name="slider" id="item-3">
     <div class="cards">
       <label class="card" for="item-1" id="bo-1">
-        <img src="../../../public/assets/work/appendice-bo/appendice-bo1.png" alt="bo">
+        <img src="/assets/work/appendice-bo/appendice-bo1.png" alt="bo">
       </label>
       <label class="card" for="item-2" id="bo-2">
-        <img src="../../../public/assets/work/appendice-bo/appendice-bo2.png" alt="bo">
+        <img src="/assets/work/appendice-bo/appendice-bo2.png" alt="bo">
       </label>
       <label class="card" for="item-3" id="bo-3">
-        <img src="../../../public/assets/work/appendice-bo/appendice-bo3.png" alt="bo">
+        <img src="/assets/work/appendice-bo/appendice-bo3.png" alt="bo">
       </label>
     </div>
   </div>
@@ -61,16 +61,16 @@ company's specific needs.
 <div class="section-appendice">
   <div class="slider" id="slider">
     <div class="slide">
-      <img src="../../../public/assets/work/appendice-bo/appendice-bo3-2.png" alt="Image 1" class="img-appendice">
+      <img src="/assets/work/appendice-bo/appendice-bo3-2.png" alt="Image 1" class="img-appendice">
     </div>
     <div class="slide">
-      <img src="../../../public/assets/work/appendice-bo/appendice-bo3-3.png" alt="Image 2" class="img-appendice">
+      <img src="/assets/work/appendice-bo/appendice-bo3-3.png" alt="Image 2" class="img-appendice">
     </div>
     <div class="slide">
-      <img src="../../../public/assets/work/appendice-bo/appendice-bo3-4.png" alt="Image 3" class="img-appendice">
+      <img src="/assets/work/appendice-bo/appendice-bo3-4.png" alt="Image 3" class="img-appendice">
     </div>
         <div class="slide">
-      <img src="../../../public/assets/work/appendice-bo/appendice-bo3-5.png" alt="Image 3" class="img-appendice">
+      <img src="/assets/work/appendice-bo/appendice-bo3-5.png" alt="Image 3" class="img-appendice">
     </div>
 </div>
 <style>
