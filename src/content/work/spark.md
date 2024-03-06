@@ -59,3 +59,24 @@ This project has enabled us to put into practice the knowledge we have acquired 
 ##### Appendices
 This document is a summary of the project.
 You can access the jupyter notebook at this address [Drive](https://drive.google.com/file/d/160N5hEa7IRBsyKAe5tMD3-y2zZ6B227d/view?usp=sharing)
+<div class="container">
+  <img src="/assets/work/appendice-spark.png">
+</div>
+<style>
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+  }
+  .container img {
+    width:100%;
+  }
+  @media (min-width:1200px) {
+    .container img {
+      width:50%;
+    }
+  }
+</style>
