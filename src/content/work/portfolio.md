@@ -8,6 +8,7 @@ tags:
   - Astro
   - Typescript
   - Javascript
+  - Markdown
 ---
 
 ### Introduction

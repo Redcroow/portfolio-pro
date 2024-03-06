@@ -347,7 +347,7 @@ import Glide from '@glidejs/glide';
 	}
 
 	.accordion-dark {
-		font-size: 1em;
+		font-size: 0.9em;
 		--bs-accordion-btn-color: white !important;
 		--bs-accordion-color: white !important;
 		--bs-accordion-bg: #343a40 !important;
@@ -355,6 +355,14 @@ import Glide from '@glidejs/glide';
 	@media (min-width: 1200px) {
 		.accordion-dark {
 			font-size: var(--text-lg);
+		}
+	}
+	.accordion-button {
+		font-size: 0.9rem !important;
+	}
+	@media (min-width: 1200px) {
+		.accordion-button {
+			font-size: var(--text-lg) !important;
 		}
 	}
 	.accordion-body ul li {
