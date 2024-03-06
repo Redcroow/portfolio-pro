@@ -4,6 +4,9 @@
 npm create astro@latest -- --template portfolio
 ```
 
+## 🧞 Require
+NODE Version : 18.xx.xx
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
