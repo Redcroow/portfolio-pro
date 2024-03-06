@@ -139,6 +139,12 @@ company's specific needs.
     margin-top:2em;
     overflow: hidden;
   }
+    @media (min-width:800px) {
+    .section-appendice {
+      margin-top:8em;
+      overflow: hidden;
+    }
+  }
   @media (min-width:1200px) {
     .section-appendice {
       margin-top:10em;
@@ -156,7 +162,7 @@ company's specific needs.
   }
   .slide {
     flex-shrink: 0;
-    width: 90%;
+    width: 100%;
     @media screen and (min-width: 1200px) {
       width: 50%;
     }
